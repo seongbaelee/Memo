@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Memo/static/css/main.ebaaf892.css",
+    "main.js": "/Memo/static/js/main.4d3049dc.js",
+    "static/media/return.webp": "/Memo/static/media/return.52deadd3ddc8ee1711dd.webp",
+    "index.html": "/Memo/index.html",
+    "main.ebaaf892.css.map": "/Memo/static/css/main.ebaaf892.css.map",
+    "main.4d3049dc.js.map": "/Memo/static/js/main.4d3049dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebaaf892.css",
+    "static/js/main.4d3049dc.js"
+  ]
+}
