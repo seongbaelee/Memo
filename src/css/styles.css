@@ -1,0 +1,198 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 750px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.daylist--buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.daylist--buttons button {
+    margin-bottom: 5rem;
+}
+
+/* .daylist--buttons button:last-of-type {
+    margin-left: auto;
+} */
+
+.daylist--selection {
+    display: flex;
+    align-items: center;
+}
+
+.daylist--days-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.daylist--days-gap {
+    margin: 1rem;
+}
+
+.daylist--grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, minmax(50px, 1fr));
+    grid-template-rows: auto;
+    gap: 15px;
+    justify-items: center;
+}
+
+/* select {
+    width: 67px;
+    height: 20px;
+} */
+
+.form--container-flex {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form--container-flex button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 150px
+}
+
+.form--return-img {
+    position: absolute;
+    height: 40px;
+    cursor: pointer;
+    left: 1rem;
+    top: 1rem;
+}
+
+.form--input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(172, 162, 162);
+    border-radius: 7px;
+    margin: 0 0 10px 0;
+    outline: 0;
+    padding-left: 0.6rem;
+}
+
+.checkbox {
+    margin-left: 1rem;
+}
+
+/* form {
+    margin: 2rem;
+}
+
+form input {
+    display:block;
+    margin-bottom: 1.5rem;
+} */
+
+/* .wordlist {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+} */
+
+.wordlist--word {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    font-size: 1.4rem;
+    display: block;
+    border: 0;
+    color:white;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    box-shadow: inset 0 0 5px 2px rgb(226, 226, 221);
+}
+
+.btn--function {
+    width: 100px;
+}
+
+.btn--word {
+    width: 100px;
+}
+
+.btn--day {
+    width: 100px;
+}
+.btn--blue {
+    background-color: dodgerblue;
+}
+
+.btn--blue:hover {
+    box-shadow: inset 0 0 5px 2px rgb(223, 220, 230);
+}
+
+.btn--red {
+    background-color: red;
+}
+
+.btn--red:hover {
+    box-shadow: inset 0 0 5px 2px rgb(189, 116, 119);
+}
+
+.btn--blackFont {
+    color: black;
+    font-size: 600;
+}
+
+table {
+    font-size: 1.5rem;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+    
+}
+
+.table--dimmed {
+    background-color: grey;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.checkbox {
+    margin: auto 1rem auto ;
+}
+
+.wordlist--word {
+    width: 100px;
+}
